@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+
+	<head>
+		<title>Surf y Mareas</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="admin2.js"></script>
+        <<script type="text/javascript" src="admin.js"></script>
+		<link rel="stylesheet" type="text/css" href="admin.css">
+	</head>
+
+	<body>
+
+		<header id="top_header">
+			<h1>mareas</h1>
+			<section class="menu">
+					<div class="submenu">
+						<span><a href="/" method="get">Mareas</a></span>
+					</div>
+					<br>
+			</section>	
+	</header>
+    Insertar Marea <br><br>
+    <div>
+    	<form id="formu">
+            <input type="text" placeholder="dia" required="" id="inputDia" name="inputDia"/><br>
+            <input type="text" placeholder="pleamar1" required="" id="inputPleamar1" name="inputPleamar1"/><br>
+            <input type="text" placeholder="pleamar2" required="" id="inputPleamar2" name="inputPleamar2"/><br>
+            <input type="text" placeholder="bajamar1" required="" id="inputBajamar1" name="inputBajamar1"/><br>
+            <input type="text" placeholder="bajamar2" required="" id="inputBajamar2" name="inputBajamar2"/><br>
+            <input type="submit" value="Enviar">
+            <!--<input type="submit" onclick="return validaForm()" value="Enviar">-->
+    	</form>
+    </div>
+    Buscar marea: <br>
+    <div>
+        <form id="formmarea">
+        	<input type="text" placeholder="dialocal" required="" id="dialocal" name="dialocal"/>
+            <input type="submit">
+        </form>
+    </div>
+
+    <form id="actumareaDiv">
+    </form>
+
+
+	</body>
+
+</html>

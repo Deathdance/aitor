@@ -1,0 +1,8 @@
+.inputNormal { border:1px solid; }
+
+.inputError
+{
+	border:1px solid #FF0000;
+	background-color:#FFF4F0;
+	color:#FF0000;
+}

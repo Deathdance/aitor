@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+
+	<head>
+		<title>Surf y Mareas</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="home.js"></script>
+	</head>
+
+	<body>
+
+		<header id="top_header">
+			<h1>mareas</h1>
+			<section class="menu">
+					<div class="submenu">
+						<span><a href="/mareas" method="get">Mareas</a></span>
+						
+						<form action="/login" method="post">
+							Admin:
+		                	<input type="text" placeholder="username" required="" id="username" name="username"/>
+		               		<input type="password" placeholder="password" required="" id="password" name="password"/>
+		        			<input id="log" type="submit"class="btn" value="Login" />
+						</span>
+					</form>
+					</div>
+			</section>	
+	</header>
+
+		Buscar marea: <br>
+    <div>
+        <form id="formmarea">
+        	<input type="text" placeholder="dialocal" required="" id="dialocal" name="dialocal"/>
+            <input type="submit">
+        </form>
+    </div>
+
+    <div id="buscarmareaDiv">
+    </div>
+
+		Lista de mareas: <br>
+    <div>
+        <form id="formlistamareas">
+            <input type="submit">
+        </form>
+    </div>
+
+    <div id="listademareasDiv">
+    </div>
+
+	</body>
+
+</html>
